@@ -72,7 +72,7 @@ The following table summarizes the hardware and software configuration used in t
 | Host Operating System | Windows 11 |
 | Hypervisor | Oracle VirtualBox 7.2.12 |
 | Wazuh Manager Operating System | Ubuntu 24.04.4 LTS |
-| Wazuh Version | 4.12.0 RC1 *(verify against the installed version)* |
+| Wazuh Version | 4.12.0 RC1 |
 | Monitored Endpoint | Windows 10 Home 22H2 |
 | Windows Build | 19045.2965 |
 | Virtualization Network | NAT Network |
