@@ -238,13 +238,13 @@ network reachability to the port; it does not by itself prove that
 enrollment or agent communication has completed successfully.
 
 **Screenshot:**
-[02-windows-agent-installation.png](../screenshots/installation/02-wazuh-agent-installation.png)
+[06-windows-agent-installation.png](../screenshots/installation/02-wazuh-agent-installation.png)
 
 **Screenshot:**
-[03-windows-agent-service.png](../screenshots/fim/01-agent-status.png)
+[07-windows-agent-service.png](../screenshots/fim/01-agent-status.png)
 
 **Screenshot:**
-[09-windows-agent-connectivity.png](../screenshots/installation/03-windows-agent-connectivity)
+[08-windows-agent-connectivity.png](../screenshots/installation/03-windows-agent-connectivity.png)
 
 ## 6. Agent Configuration and Log Locations
 
@@ -302,10 +302,10 @@ Configuration Assessment (SCA), and File Integrity Monitoring (FIM)
 results. Those findings and FIM test steps are documented separately.
 
 **Screenshot:**
-[10-wazuh-dashboard-overview.png](../screenshots/installation/04-wazuh-dashboard-overview.png)
+[09-wazuh-dashboard-overview.png](../screenshots/installation/04-wazuh-dashboard-overview.png)
 
 **Screenshot:**
-[11-windows-endpoint-connected.png](../screenshots/installation/05-windows-endpoint-connected.png)
+[10-windows-endpoint-connected.png](../screenshots/installation/05-windows-endpoint-connected.png)
 
 ## 8. Troubleshooting Notes
 
