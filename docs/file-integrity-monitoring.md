@@ -196,10 +196,6 @@ a Windows 10 endpoint. Controlled file creation, modification, and
 deletion tests are used to evaluate whether Wazuh reports file changes
 in its dashboard.
 
-The final conclusion should be updated to reflect the events actually
-observed during testing. This experiment demonstrates how file integrity
-monitoring can help identify unexpected changes to monitored files.
-
 ## 9. References
 
 -   [Wazuh: File integrity
