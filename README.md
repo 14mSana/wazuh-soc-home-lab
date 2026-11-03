@@ -34,7 +34,7 @@ endpoint.
   Host Operating System   Windows 11
   Hypervisor              Oracle VirtualBox 7.2.12
   Wazuh Manager           Ubuntu 24.04.4 LTS
-  Wazuh Version           4.12.0 RC1 *(verify against the installed version)*
+  Wazuh Version           4.12.0 RC1 
   Monitored Endpoint      Windows 10 Home 22H2
   Windows Build           19045.2965
   Virtual Network         NAT Network
@@ -155,8 +155,8 @@ platform.
 -   [x] Set up the Ubuntu virtual machine.
 -   [x] Access the Wazuh dashboard.
 -   [x] Register the Windows endpoint.
--   [ ] Verify file creation, modification, and deletion alerts.
--   [ ] Document an end-to-end FIM test.
+-   [x] Verify file creation, modification, and deletion alerts.
+-   [x] Document an end-to-end FIM test.
 
 ## File Integrity Monitoring
 
@@ -258,7 +258,6 @@ security investigation.
 This project is for educational and defensive cybersecurity purposes.
 Testing is performed only on systems I own or am authorized to
 administer.
-
 
 ## Author
 
