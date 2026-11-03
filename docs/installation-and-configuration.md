@@ -55,10 +55,10 @@ Check network connectivity and confirm that the server is reachable from
 the Windows endpoint.
 
 **Screenshot:**
-[01-virtualbox-vm-overview.png](../screenshots/installation/01-virtualbox-vm-overview.png)
+[01-virtualbox-vm-overview.png](../screenshots/lab-architecture/01-virtualbox-vm-overview.png)
 
 **Screenshot:**
-[02-ubuntu-vm-configuration.png](../screenshots/installation/02-ubuntu-vm-configuration.png)
+[02-ubuntu-vm-configuration.png](../screenshots/lab-architecture/02-ubuntu-vm-configuration.png)
 
 ### 3.2 Prepare the Windows 10 endpoint VM
 
@@ -76,7 +76,7 @@ The endpoint used in this lab is Windows 10 Home 22H2, build
 `19045.2965`.
 
 **Screenshot:**
-[03-windows-vm-configuration.png](../screenshots/installation/03-windows-vm-configuration.png)
+[03-windows-vm-configuration.png](../screenshots/lab-architecture/03-windows-vm-configuration.png)
 
 ### 3.3 Configure the virtual network
 
@@ -89,7 +89,7 @@ can reach it. The Windows endpoint used during the lab had the address
 configuration.
 
 **Screenshot:**
-[04-virtual-network-configuration.png](../screenshots/installation/04-virtual-network-configuration.png)
+[04-virtual-network-configuration.png](../screenshots/lab-architecture/04-virtual-network-configuration.png)
 
 ## 4. Wazuh Server Installation and Verification
 
@@ -150,10 +150,7 @@ The Windows endpoint should appear as `WINDOWS-10-HOST` with agent ID
 `002` once enrolled and connected.
 
 **Screenshot:**
-[05-wazuh-services-status.png](../screenshots/installation/05-wazuh-services-status.png)
-
-**Screenshot:**
-[06-wazuh-agent-list.png](../screenshots/installation/06-wazuh-agent-list.png)
+[05-wazuh-agent-list.png](../screenshots/installation/01-wazuh-agent-list.png)
 
 ## 5. Windows 10 Agent Installation and Enrollment
 
@@ -241,13 +238,13 @@ network reachability to the port; it does not by itself prove that
 enrollment or agent communication has completed successfully.
 
 **Screenshot:**
-[07-windows-agent-installation.png](../screenshots/installation/07-windows-agent-installation.png)
+[02-windows-agent-installation.png](../screenshots/installation/02-wazuh-agent-installation.png)
 
 **Screenshot:**
-[08-windows-agent-service.png](../screenshots/installation/08-windows-agent-service.png)
+[03-windows-agent-service.png](../screenshots/fim/01-agent-status.png)
 
 **Screenshot:**
-[09-windows-agent-connectivity.png](../screenshots/installation/09-windows-agent-connectivity.png)
+[09-windows-agent-connectivity.png](../screenshots/installation/03-windows-agent-connectivity)
 
 ## 6. Agent Configuration and Log Locations
 
@@ -305,10 +302,10 @@ Configuration Assessment (SCA), and File Integrity Monitoring (FIM)
 results. Those findings and FIM test steps are documented separately.
 
 **Screenshot:**
-[10-wazuh-dashboard-overview.png](../screenshots/installation/10-wazuh-dashboard-overview.png)
+[10-wazuh-dashboard-overview.png](../screenshots/installation/04-wazuh-dashboard-overview.png)
 
 **Screenshot:**
-[11-windows-endpoint-connected.png](../screenshots/installation/11-windows-endpoint-connected.png)
+[11-windows-endpoint-connected.png](../screenshots/installation/05-windows-endpoint-connected.png)
 
 ## 8. Troubleshooting Notes
 
