@@ -353,9 +353,7 @@ sudo ss -lntp | grep -E ':1514|:1515'
 This helps verify whether the expected Wazuh services are listening on
 the manager VM.
 
-```
-
-## 10. References
+## 9. References
 
 -   [Wazuh
     documentation](https://documentation.wazuh.com/current/index.html)
